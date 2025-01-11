@@ -1,9 +1,9 @@
-"""a = 5 
+a = 5 
 print(a)
 print("Hello, World!")
 
 
- recurssion """
+ recurssion 
 
 def list_sum(num_List):
     if len(num_List) == 1:
