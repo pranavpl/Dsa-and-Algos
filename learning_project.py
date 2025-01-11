@@ -40,4 +40,10 @@ def list_opre():
     number.remove(3)
     print(f"After reove:{number}")
 
-list_opre()
+# List comprehension
+
+sqr = [x**2 for x in range(5)]
+evennum = [x for x in range(10)if x % 2 == 0]
+print(f"\nList Comprehension:")
+print(f"Squares:{sqr}")
+print(f"Even number:{evennum}")
