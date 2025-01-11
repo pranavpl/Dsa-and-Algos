@@ -21,3 +21,23 @@ print(f"Uppercase{name.upper()}")
 print(f"Length: {len(name)}")
 print(f"Replac:{name.replace('n','N')}")
 print(f"Slice: {name[1:4]}")
+
+
+# Lists and List Comprehension
+
+
+def list_opre():
+    # Basic list operations
+    number = [ 1,2,3,4,5]
+    fruits = ['apple','banana','orange']
+
+    print(f"List Operations:")
+    print(f"Orginal list:{number}")
+    number.append(6)
+    print(f"After append{number}")
+    number.insert(0,0)
+    print(f"After insert:{number}")
+    number.remove(3)
+    print(f"After reove:{number}")
+
+list_opre()
