@@ -64,4 +64,32 @@ def dictandset ():
     print(f"keys: {student.keys()}")
     print(f"values:{student.values()}")
 
-dictandset()
+# Set operations
+set1 = {1,2,3,4}
+set2 = {3,4,5,6}
+print(f"\nSet Operations:")
+print(f"Union: {set1.union(set2)}")
+print(f"Intersection:{set1.intersection(set2)}")
+print(f"Difference:{set1.difference(set2)}")
+
+
+# Functions and Lambda
+def demonstrate_function():
+    # Regular function
+    def calculated_grade(score):
+        if score >= 90:
+            return 'A'
+        elif score >= 80:
+            return 'B'
+        elif score >= 70:
+            return 'C'
+        else:
+            return 'F'
+        
+    square = lambda x:x**2
+    print(f"Functions:")
+    print(f"Grade for 85:{calculated_grade(85)}")
+    print(f"Square of 5:{square(5)}")
+
+# Object-Oriented Programming
+class student
