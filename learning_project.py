@@ -47,3 +47,21 @@ evennum = [x for x in range(10)if x % 2 == 0]
 print(f"\nList Comprehension:")
 print(f"Squares:{sqr}")
 print(f"Even number:{evennum}")
+
+
+# Dictionaries and Sets
+
+def dictandset ():
+    student ={
+        'name':'John',
+        'age': 20 ,
+        'grades': [ 56,45,63 ]
+    }
+
+    print(f"Orginal dict{student}")
+    student['city'] = 'NYC'
+    print(f"After Adding key:{student}")
+    print(f"keys: {student.keys()}")
+    print(f"values:{student.values()}")
+
+dictandset()
