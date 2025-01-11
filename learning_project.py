@@ -12,5 +12,12 @@ def basic_operations():
     print(f"Modulus:{x%y}")
     print(f"Power{x**y}")
 
+#strings
 
-basic_operations()
+name = "Python"
+print(f"\nString operations:")
+print(f"Orginal String {name}")
+print(f"Uppercase{name.upper()}")
+print(f"Length: {len(name)}")
+print(f"Replac:{name.replace('n','N')}")
+print(f"Slice: {name[1:4]}")
