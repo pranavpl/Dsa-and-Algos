@@ -121,3 +121,11 @@ def error_handling_example():
         print("This will always execute")
         
 
+# File Operations
+def file_operations():
+    #writting to file 
+    with open('example.txt','r') as f:
+        content=f.read()
+        print(f"File content: {content}")
+
+
