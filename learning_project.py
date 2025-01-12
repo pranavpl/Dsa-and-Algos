@@ -92,4 +92,32 @@ def demonstrate_function():
     print(f"Square of 5:{square(5)}")
 
 # Object-Oriented Programming
-class student
+class student:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+        self.grades = []
+
+    def add_grd(self,grade):
+        self.grades.append(grade)
+
+    def getavg(self):
+        return sum(self.grades)/len(self.grades) if self.grades else 0
+    
+    def __str__(self):
+        return f"Student(name={self.name},age{self.age},average={self.getavg():.2f})"
+
+
+#Error handling
+
+def error_handling_example():
+    try:
+        result = 10/0
+    except ZeroDivisionError:
+        print("Cannot divide by zero")
+    except Exception as e:
+        print(f"An error occured: {e}")
+    finally:
+        print("This will always execute")
+        
+
