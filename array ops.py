@@ -35,3 +35,28 @@ def sorted(arr):
 
 arr = [8, 2, 3, 4, 5]
 print("Is Sorted:", sorted(arr))"""
+
+
+"""Sum of Array Elements
+
+def sum(arr):
+     for i in arr:
+          arr = i+1
+    
+arr = [1, 2, 3, 4, 5]
+total = sum(arr)
+print("Sum of Elements:", total)"""
+
+"""Find Duplicates (Brute Force)"""
+
+def dinddep(arra):
+     duplicate = []
+     for i in range(len(arra)):
+          for j in range(i+1,len(arra)):
+             if arra[i] == arra[j] and arra[i] not in duplicate:
+               duplicate.append(arra[i])
+     return duplicate
+
+arr = [4, 2, 4, 3, 2, 5, 6, 3]
+duplicate = dinddep(arr)
+print("Duplicates:", duplicate)
