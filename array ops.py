@@ -26,5 +26,12 @@ reversearr = reversearr(arr)
 print("Reversed Array:",reversearr)"""
 
 
-"""Check if Sorted"""
+"""Check if Sorted
+def sorted(arr):
+    for i in range(len(arr)-1):
+        if arr[i]>arr[i +1]:
+         return False
+    return True
 
+arr = [8, 2, 3, 4, 5]
+print("Is Sorted:", sorted(arr))"""
