@@ -7,7 +7,7 @@ def printarray(arr):
 arr = [1, 2, 3, 4, 5]
 printarray(arr)"""
 
-"""Find Maximum and Minimum"""
+"""Find Maximum and Minimum
 def findmaxmin(arr):
     maxval = max(arr)
     minval = min(arr)
@@ -15,5 +15,16 @@ def findmaxmin(arr):
 
 arr = [1,2,3,5]
 maxval,minval = findmaxmin(arr)
-print(maxval,minval)
+print(maxval,minval)"""
+
+""" Reverse an Array
+
+def reversearr(arr):
+    return arr[::-1]
+arr = [1, 2, 3, 4, 5]
+reversearr = reversearr(arr)
+print("Reversed Array:",reversearr)"""
+
+
+"""Check if Sorted"""
 
