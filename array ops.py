@@ -47,7 +47,7 @@ arr = [1, 2, 3, 4, 5]
 total = sum(arr)
 print("Sum of Elements:", total)"""
 
-"""Find Duplicates (Brute Force)"""
+"""Find Duplicates (Brute Force)
 
 def dinddep(arra):
      duplicate = []
@@ -59,4 +59,7 @@ def dinddep(arra):
 
 arr = [4, 2, 4, 3, 2, 5, 6, 3]
 duplicate = dinddep(arr)
-print("Duplicates:", duplicate)
+print("Duplicates:", duplicate)"""
+
+
+ 

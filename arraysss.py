@@ -3,7 +3,7 @@ print(a)
 print("Hello, World!")
 
 
- recurssion 
+
 
 def list_sum(num_List):
     if len(num_List) == 1:
